@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+  <link rel="manifest" href="/assets/img/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/base.css">
+  <link rel="stylesheet" href="./assets/css/Header/header.css">
+  <link rel="stylesheet" href="./assets/css/Header/headerTitulo.css">
+  <link rel="stylesheet" href="./assets/css/Header/headerLogo.css">
+  <link rel="stylesheet" href="./assets/css/Principal/principal.css">
+  <link rel="stylesheet" href="./assets/css/Principal/principalContainer.css">
+  <link rel="stylesheet" href="./assets/css/Principal/principalTitle.css">
+  <link rel="stylesheet" href="./assets/css/Principal/principalAviso.css">
+  <link rel="stylesheet" href="./assets/css/textbox/textarea.css">
+  <link rel="stylesheet" href="./assets/css/textbox/textbox.css">
+  <link rel="stylesheet" href="./assets/css/button/button.css">
+  <link rel="stylesheet" href="./assets/css/button/button.css">
+  <link rel="stylesheet" href="./assets/css/switch/switchContainer.css">
+  <link rel="stylesheet" href="./assets/css/switch/switch.css">
+  <link rel="stylesheet" href="./assets/css/Footer/footer.css">
+  <link rel="stylesheet" href="./assets/css/Footer/footerLinks.css">
+  <link rel="stylesheet" href="./assets/css/Footer/footerLogo.css">
+
+  <title>Encriptador de texto - Challenge Alura</title>
+</head>
+
+<body>
+  <header class="header">
+
+    <a href="https://www.aluracursos.com/"><img class="header__logo" src="./assets/img/icon-menu-alura_espanhol.svg"
+        alt="logo alura"></a>
+
+    <div class="header__title_container">
+      <h1>Alura</h1>
+      <h1>Challenges</h1>
+      <h1>ONE</h1>
+    </div>
+  </header>
+
+  <main class="principal">
+    <section class="principal__container">
+      <h1 class="principal__title"><span class="text-colorized">#Encriptador</span> de texto</h1>
+      <div class="switch__container">
+        <legend>Modo</legend>
+        <input type="checkbox" class="switch" id="mode__switch">
+        <label for="mode__switch" class="mode__switch"></label>
+      </div>
+      <div class="principal__aviso">
+        <span class="material-symbols-outlined">info</span>
+        <p> Solo letras minúsculas , sin acentos ni caracteres especiales.
+        </p>
+      </div>
+
+    </section>
+
+
+
+    <section class="textbox">
+      <textarea class="textbox__textarea" cols="28" rows="12" placeholder="Por favor ingrese su texto ..."
+        resize:none></textarea>
+      <button class="btn" id="main_btn"><span class="text-colorized btn_tag">Encriptar</span></button>
+    </section>
+
+    <section class="textbox">
+      <textarea class="textbox__textarea" cols="28" rows="12" placeholder="Esperando el ingreso de texto" readonly
+        resize:none></textarea>
+      <button class="btn" id="copy_btn">Copiar texto <span
+          class="text-colorized btn_tag">encriptado</span></button>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+
+
+    <ul class="footer__links">
+      <li><a href="https://github.com/tobiasmv">
+          <img class="footer__logo" src="./assets/img/git-icon.svg" alt="logo github">
+
+        </a></li>
+      <li><a href="./assets/link.html">
+          <img class="footer__logo" src="./assets/img/insta-icon.svg" alt="logo instagram">
+
+        </a></li>
+      <li><a href="./assets/link.html">
+          <img class="footer__logo" src="./assets/img/tw-icon.svg" alt="logo twitter"></a></li>
+    </ul>
+  </footer>
+</body>
+<script type="text/javascript" src="./script.js"></script>
+
+</html>

@@ -1,0 +1,24 @@
+:root {
+    --color_1: #2f2f2f;
+    --color_2: #557b63;
+    --color_3: #a2d5ab;
+    --color_4: #39aea9;
+    --color_5: #e5efc1;
+    --color_6: #232323;
+    --montserrat:'Montserrat', sans-serif;
+    --notoSans:'Noto Sans', sans-serif;}
+
+    body {
+        background: var(--color_1);
+        font-family: var(--montserrat);
+        width:100%;
+        display: grid;
+        grid-template-areas:
+            "header"
+            "main"
+            "footer";
+    }
+
+    body::-webkit-scrollbar {
+        display: none;
+    }

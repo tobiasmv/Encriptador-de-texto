@@ -1,0 +1,22 @@
+.header__title_container {
+	height: 6rem;
+	padding: 1.5rem 0;
+
+}
+
+.header__title_container h1 {
+	font-size: 2rem;
+	color: var(--color_5);
+	margin: 0;
+}
+
+.header__title_container h1::first-letter {
+	color: var(--color_2);
+}
+
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+
+	.header__title_container h1 {
+		font-size: 3rem;
+	}
+}

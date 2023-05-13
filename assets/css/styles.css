@@ -1,0 +1,24 @@
+body{
+    background-color:beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    padding: auto;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.icon{font-size: 4rem;
+    text-align: center;
+
+}
+p{
+    font-size: 2rem;
+    text-align: center;
+}
+h2{
+    font-size: 2rem;
+    text-align: center;
+}

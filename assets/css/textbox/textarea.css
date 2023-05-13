@@ -1,0 +1,37 @@
+
+.textbox__textarea {
+	font-family: var(--notoSans);
+	font-size: 1em;
+	width: 80%;
+	resize: none;
+	background:var(--color_5);
+	border-radius: 8px;
+	border: none;
+	box-shadow: 3px 4px 12px 3px var(--color_6);
+}
+
+.textbox__textarea::placeholder {
+	color:var(--color_1);
+	font-size: 1rem;
+	font-weight: bold;
+	font-family: var(--notoSans);
+}
+
+.textbox__textarea:focus {
+	outline: none;
+}
+@media screen and (min-width: 768px) {
+
+	.textbox__textarea {
+		font-size: 1.5em;
+		width: auto;
+		background:var(--color_5);
+		padding: 1em;
+		border-radius: 18px;
+		box-shadow: 3px 4px 12px 3px var(--color_6);
+	}
+
+	.textbox__textarea::placeholder {
+		font-size: 1.5rem;
+	}
+}

@@ -1,0 +1,32 @@
+.principal__title {
+	width: 100%;
+	text-align: center;
+	font-size: 1.6rem;
+	color: var(--color_5);
+	font-weight: bold;
+}
+
+.text-colorized{
+	color: var(--color_4);
+}
+.text-colorized:hover{
+	color: var(--color_5);
+}
+@media screen and (min-width: 768px) {
+
+	.principal__title {
+		box-sizing: border-box;
+		font-size: 3rem;
+		text-align: center;
+		margin: 2rem 2rem ;
+	}
+}
+@media screen and (min-width: 1024px) {
+
+	.principal__title {
+		box-sizing: border-box;
+		font-size: 3rem;
+		text-align: justify;
+		margin: 5rem 2rem ;
+	}
+}
